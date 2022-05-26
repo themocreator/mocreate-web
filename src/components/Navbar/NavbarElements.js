@@ -8,8 +8,10 @@ height: 85px;
 width: 100vw; 
 display: flex;
 justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
+position: fixed;
+top: 0px;
+left: 0px;
 `;
 
 export const NavLink = styled(Link)`

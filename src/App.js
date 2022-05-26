@@ -8,9 +8,13 @@ import Contact from './pages/contact';
 import Expertise from './pages/expertise';
 import Portfolio from './pages/portfolio';
 import Services from './pages/services';
+import WebFont from 'webfontloader';
+
+
 
 function App() {
-return (
+
+	return (
 	<Router>
 	<Navbar />
 	<Routes>
