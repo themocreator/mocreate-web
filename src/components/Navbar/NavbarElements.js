@@ -15,6 +15,7 @@ left: 0px;
 `;
 
 export const NavLink = styled(Link)`
+font-family: 'Hind';
 color: #ffffff;
 display: flex;
 align-items: center;
@@ -44,7 +45,13 @@ color: #808080;
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-margin-right: -24px;
+margin-right: 100px;
+
+& img {
+	width: 79px; 
+	height: 32px; 
+	object-position: center;
+}
 /* Second Nav */
 /* margin-right: 24px; */
 /* Third Nav */

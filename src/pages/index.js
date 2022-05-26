@@ -1,4 +1,4 @@
-import React from "react";
+import Reract from "react";
 import logo from "./logo.png";
 import RoundedButton from "./RoundedButton";
 import HomeContainer from "./Home.style";

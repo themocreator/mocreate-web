@@ -1,10 +1,16 @@
 import React, { useState } from "react";
-import { Header } from "./services.style";
+import { Header, ServicesContainer } from "./services.style";
 import ReactDOM from 'react-dom';
+
+
 
 const Services = (props) => {
 	return (
-		console.log(props.servicesArray)
+		<>
+			<ServicesContainer className={'title'}>
+				<label>The one-stop solution for all your needs.</label>
+			</ServicesContainer>
+		</>
 	)
 };
 
