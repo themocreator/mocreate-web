@@ -15,7 +15,7 @@ const Navbar = () => {
 	useEffect(() => {
 		WebFont.load({
 			google: {
-				families: ['Hind']
+				families: ['Hind', 'Aldrich']
 			}
 		});
 	}, []);

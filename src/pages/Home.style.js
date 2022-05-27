@@ -19,8 +19,6 @@ const HomeContainer = styled.div`
   }
 
 
-
-
   & label {
     color: white;
     font-size: 24px;
